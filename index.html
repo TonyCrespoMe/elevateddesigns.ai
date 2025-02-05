@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Elevated Designs – IoT, Cybersecurity, Web Design & IT Support">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elevated Designs</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Optionally include a Google Font or a font from a CDN -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation / Header -->
+  <header class="terminal-header">
+    <nav class="terminal-nav container">
+      <div class="nav-brand">
+        <a href="#home">Elevated<span>Designs</span></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero container">
+    <div class="hero-content">
+      <h1 class="hero-title">Elevated Designs</h1>
+      <p class="hero-subtitle">Innovative IoT, Cybersecurity, Web Design & IT Solutions</p>
+      <a href="#services" class="hero-button">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services container">
+    <h2>Services</h2>
+    <div class="services-grid">
+      <div class="service-item">
+        <h3>IoT Solutions</h3>
+        <p>End-to-end IoT consultancy, device integration, and data analysis.</p>
+      </div>
+      <div class="service-item">
+        <h3>Cybersecurity</h3>
+        <p>Protect your digital assets with robust security assessments and solutions.</p>
+      </div>
+      <div class="service-item">
+        <h3>Web Design</h3>
+        <p>Custom website design with a focus on user experience and modern aesthetics.</p>
+      </div>
+      <div class="service-item">
+        <h3>IT Support</h3>
+        <p>24/7 technical support, network monitoring, and on-call assistance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Articles Section -->
+  <section id="articles" class="articles container">
+    <h2>Articles & Insights</h2>
+    <p>Check out our latest blog posts, Medium articles, and technical deep-dives:</p>
+    <div class="articles-list">
+      <!-- Example article previews -->
+      <article class="article-card">
+        <h3><a href="#">Securing IoT Devices: 5 Best Practices</a></h3>
+        <p>An in-depth guide on how to ensure your connected devices stay safe from cyber threats.</p>
+      </article>
+      <article class="article-card">
+        <h3><a href="#">Optimizing Your Website for Speed</a></h3>
+        <p>A look at how to improve user experience through efficient code and hosting solutions.</p>
+      </article>
+      <!-- Add more article previews as needed -->
+    </div>
+    <div class="articles-button">
+      <a href="#" class="read-more">View All Articles</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about container">
+    <h2>About Elevated Designs</h2>
+    <p>
+      We’re a forward-thinking team passionate about leveraging technology to drive business success. 
+      From smart IoT systems to robust cybersecurity strategies, our goal is to elevate your digital footprint.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact container">
+    <h2>Contact Us</h2>
+    <p>Have a project in mind or need IT support? Get in touch.</p>
+    <form class="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="john@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="terminal-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Elevated Designs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <script src="js/main.js"></script>
+  <script>
+    // Simple script to update year automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
